@@ -10,5 +10,6 @@ public class Sandbox {
 
         int[] arr = {1, 2, 3};
         String s = Stream.of(arr).map(Objects::toString).collect(Collectors.joining());
+        System.out.println(s);
     }
 }
